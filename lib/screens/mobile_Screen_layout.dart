@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:whatsapp_clone/Widgets/color.dart';
+import 'package:whatsapp_clone/Widgets/contact_info.dart';
+import 'package:whatsapp_clone/color.dart';
 
 class MobileScreenlayout extends StatelessWidget {
   const MobileScreenlayout({super.key});
@@ -59,7 +60,7 @@ class MobileScreenlayout extends StatelessWidget {
                   ),
                 ]),
           ),
-          body: Center(child: Text("hello world")),
+          body: const Contactinfo(),
         ));
   }
 }
