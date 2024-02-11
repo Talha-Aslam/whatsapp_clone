@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:whatsapp_clone/Widgets/contact_info.dart';
+import 'package:whatsapp_clone/Widgets/web_Searchbar.dart';
 import 'package:whatsapp_clone/Widgets/web_profile_bar.dart';
 
 class WebScreenLayout extends StatelessWidget {
@@ -16,7 +17,7 @@ class WebScreenLayout extends StatelessWidget {
             child: Column(
               children: [
                 Webprofilebar(),
-                // web searchbar
+                Websearchbar(),
                 Contactinfo(),
               ],
             ),
@@ -31,6 +32,11 @@ class WebScreenLayout extends StatelessWidget {
               fit: BoxFit.cover,
             ),
           ),
+          // child: Column(children: [
+          //   //chat appbar
+          //   //chat list
+          //   //chat
+          // ],),
         )
       ],
     ));
