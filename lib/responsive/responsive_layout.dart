@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
-class responsiveLayout extends StatelessWidget {
+class ResponsiveLayout extends StatelessWidget {
   final Widget mobilescreenlayout;
   final Widget webscreenlayout;
-  const responsiveLayout(
+  const ResponsiveLayout(
       {super.key,
       required this.webscreenlayout,
       required this.mobilescreenlayout});
@@ -11,8 +11,8 @@ class responsiveLayout extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return LayoutBuilder(
-      builder: (context, Constraints) {
-        if (Constraints.maxWidth > 900) {
+      builder: (context, constraints) {
+        if (constraints.maxWidth > 900) {
           return webscreenlayout;
           // webscreenlayout
         }

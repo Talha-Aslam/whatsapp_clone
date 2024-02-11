@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
         title: 'Flutter Demo',
         theme:
             ThemeData.dark().copyWith(scaffoldBackgroundColor: backgroundColor),
-        home: const responsiveLayout(
+        home: const ResponsiveLayout(
             webscreenlayout: WebScreenLayout(),
             mobilescreenlayout: MobileScreenlayout()));
   }
