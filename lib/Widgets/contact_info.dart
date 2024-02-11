@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:whatsapp_clone/Widgets/info.dart';
 import 'package:whatsapp_clone/color.dart';
+import 'package:whatsapp_clone/Widgets/info.dart';
 
 class Contactinfo extends StatelessWidget {
   const Contactinfo({super.key});
